@@ -1,0 +1,116 @@
+22:22:09.921 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:09.922 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:09.937 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:22:09.964 [main] INFO  c.browserstack.BrowserStackJavaAgent - Selenium version detected - 4.1.0
+22:22:10.101 [main] INFO  c.browserstack.BrowserStackJavaAgent - Appium version detected - 
+22:22:10.103 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:22:10.107 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:22:10.107 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:22:10.107 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:22:10.355 [main] INFO  c.browserstack.BrowserStackJavaAgent - Framework set to junit5
+22:22:10.357 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: acfce6dd-d96a-4f0b-b5f9-82183b204890
+22:22:10.357 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:22:11.639 [main] WARN  com.browserstack.v2.SdkCliUtils - CLI update check returned non-successful status: 401. Response: {"message":"Unauthorized"}
+22:22:14.375 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:22:18.822 [main] INFO  c.b.config.BrowserStackConfig - ERROR
+22:22:18.822 [main] WARN  com.browserstack.testOps.Listener - Exception in testhub build creation Access to BrowserStack denied due to incorrect credentials.
+22:22:18.823 [main] INFO  c.browserstack.utils.LogReportingAPI - 
+[2026-07-07T15:22:18.822790Z][ TESTHUB ] EXCEPTION IN BUILD START EVENT : com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsJson(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.launch(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onStart(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.onStart(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+
+22:22:18.823 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:22:18.823 [main] INFO  c.browserstack.BrowserStackJavaAgent - Starting BrowserStack Local......
+22:22:21.004 [main] ERROR com.browserstack.LocalFactory - Initialization of BrowserStack Local failed com.browserstack.local.LocalException: Error trying to download BrowserStackLocal binary: Error trying to fetch the source URL: Server returned HTTP response code: 401 for URL: https://local.browserstack.com/binary/api/v1/endpoint.
+22:22:21.004 [main] WARN  c.b.monitoring.PerformanceTester - Exception in measured method 'sdk:automate:local': com.browserstack.utils.BrowserStackSDKException: Initialization of BrowserStack Local failed Error trying to download BrowserStackLocal binary: Error trying to fetch the source URL: Server returned HTTP response code: 401 for URL: https://local.browserstack.com/binary/api/v1/endpoint.
+	at com.browserstack.LocalFactory.<init>(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.a(Unknown Source)
+	at com.browserstack.LocalFactory.createInstance(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.b(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.startBrowserStackAgent(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent.premain(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndStartAgent(InstrumentationImpl.java:560)
+	at java.instrument/sun.instrument.InstrumentationImpl.loadClassAndCallPremain(InstrumentationImpl.java:572)
+
+22:22:21.339 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:21.340 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:21.346 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:21.347 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:21.348 [main] DEBUG c.browserstack.BrowserStackJavaAgent - [AGENT] Found agent via ProtectionDomain: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:21.349 [main] INFO  c.browserstack.BrowserStackJavaAgent - [AGENT] Stored agent path for child processes: /Users/piyadaketmala/.m2/repository/com/browserstack/browserstack-java-sdk/1.62.2/browserstack-java-sdk-1.62.2.jar
+22:22:21.361 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:22:21.367 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:22:21.368 [main] DEBUG c.browserstack.BrowserStackJavaAgent - Extracted CLI argument from system : null
+22:22:21.395 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:22:21.403 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:22:21.409 [main] DEBUG c.b.config.BrowserStackConfig - Cli Config passed - {}
+22:22:21.425 [main] DEBUG c.b.utils.SslContextFactory - [SslContextFactory] No proxyCaCertificate configured; using JVM default trust store.
+22:22:21.429 [main] DEBUG c.b.utils.SslContextFactory - [SslContextFactory] No proxyCaCertificate configured; using JVM default trust store.
+22:22:21.434 [main] DEBUG c.b.utils.SslContextFactory - [SslContextFactory] No proxyCaCertificate configured; using JVM default trust store.
+22:22:21.501 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:22:21.509 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:22:21.510 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:22:21.510 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:22:21.511 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 39511dae-1c0f-432f-afff-80dee5d0ee07
+22:22:21.511 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:22:21.504 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:22:21.515 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:22:21.515 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:22:21.515 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:22:21.516 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 84ed8378-43bc-4a25-a99d-3947b984041a
+22:22:21.516 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:22:21.515 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger ROOT
+22:22:21.522 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":5000,"levelStr":"TRACE"} for logger browserStackAutomationFileDebugger
+22:22:21.522 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger browserStackFileDebugger
+22:22:21.522 [main] DEBUG c.b.logger.BrowserstackLoggerFactory - Log Level set to {"levelInt":20000,"levelStr":"INFO"} for logger com
+22:22:21.523 [main] INFO  c.browserstack.BrowserStackJavaAgent - SDK run started with id: 8eeb82af-cb7b-4789-bb77-64eddd3c5872
+22:22:21.523 [main] INFO  c.b.config.BrowserStackConfig - INFO
+22:22:22.034 [main] WARN  com.browserstack.v2.SdkCliUtils - CLI update check returned non-successful status: 401. Response: {"message":"Unauthorized"}
+22:22:22.051 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:22:22.200 [main] INFO  c.b.t.TestOrchestrationUtils - JUnit 5 alternative discovery: Found 4 total tests
+22:22:23.056 [main] WARN  com.browserstack.v2.SdkCliUtils - CLI update check returned non-successful status: 401. Response: {"message":"Unauthorized"}
+22:22:23.073 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:22:23.212 [main] INFO  c.b.t.TestOrchestrationUtils - JUnit 5 alternative discovery: Found 4 total tests
+22:22:24.104 [main] WARN  com.browserstack.v2.SdkCliUtils - CLI update check returned non-successful status: 401. Response: {"message":"Unauthorized"}
+22:22:24.122 [main] INFO  c.browserstack.BrowserStackJavaAgent - Project and debug logs are captured by default. To disable, set disableAutoCaptureLogs: true in config.
+22:22:24.256 [main] INFO  c.b.t.TestOrchestrationUtils - JUnit 5 alternative discovery: Found 4 total tests
+22:22:24.989 [Thread-0] ERROR c.browserstack.testOps.RequestUtils - [RequestUtils] Error in stop: Non 200 response
+com.browserstack.testOps.RequestException: Non 200 response
+	at com.browserstack.testOps.RequestException.non200(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOps(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.requestToTestOpsString(Unknown Source)
+	at com.browserstack.testOps.RequestUtils.stop(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.a(Unknown Source)
+	at com.browserstack.testOps.Listener.onComplete(Unknown Source)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at com.browserstack.utils.ConditionalInvocationHandler.invoke(Unknown Source)
+	at jdk.proxy2/jdk.proxy2.$Proxy9.onComplete(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.a(Unknown Source)
+	at com.browserstack.BrowserStackJavaAgent$FinalExecution.run(Unknown Source)
+22:22:26.363 [Thread-0] INFO  com.browserstack.v2.SdkCLI - stop: cli is not running.
+22:22:29.791 [Thread-0] INFO  c.browserstack.BrowserStackJavaAgent - SDK run ended for id: acfce6dd-d96a-4f0b-b5f9-82183b204890, testhub id: 
+22:22:29.791 [Thread-0] INFO  c.b.config.BrowserStackConfig - INFO
